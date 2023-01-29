@@ -1,4 +1,5 @@
 # Distributed-Database-Management-System
+### Java, Maven, Git, Google Cloud Platform (GCP).
 
 The database is designed in such a way that it should identify one or two linear data structures which can be used for query processing and data processing. The system should be menu driven and should provide access to the valid user only. The registration of the user must include security questions and the hashing should be performed on user id and password that are to be stored. Moreover, the validity of the user must be checked and after that the user will be provided with the options of the functionalities of the database system.
 
