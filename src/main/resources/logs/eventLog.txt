@@ -1,0 +1,6 @@
+Query => create, Database Status: Database => books, , Table Changed => book1, Total Records present => 0, Error handled => No Errors
+Query => create, Database Status: Database => books, , Table Changed => book3, Total Records present => 0, Error handled => No Errors
+Query => select, Database Status: Database => books, , Table Changed => bool, Total Records present => No records, Error handled => Error: Invalid select query
+Query => select, Database Status: Database => books, , Table Changed => bool, Total Records present => No records, Error handled => No Errors
+Query => select, Database Status: Database => books, , Table Changed => bool, Total Records present => No records, Error handled => Error: Invalid use database query
+Query => select, Database Status: Database => books, , Table Changed => b, Total Records present => No records, Error handled => No Errors

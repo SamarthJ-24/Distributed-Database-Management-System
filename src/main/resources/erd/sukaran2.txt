@@ -1,0 +1,63 @@
+Table Name:  book2               
+===============================================
+Column Name          Column Type         
+===============================================
+id                   int                 
+title                text                
+===============================================
+Key Type             Key Name            
+===============================================
+Primary Key          id                  
+
+
+
+Table Name:  book3               
+===============================================
+Column Name          Column Type         
+===============================================
+id                   int                 
+title                text                
+courseId             int                 
+===============================================
+Key Type             Key Name            
+===============================================
+Primary Key          id                  
+Foreign Key          courseId reference book2(id)
+
+Cardinality: one to one
+
+
+Table Name:  book3               
+===============================================
+Column Name          Column Type         
+===============================================
+id                   int                 
+title                text                
+courseId             int                 
+bookId               int                 
+===============================================
+Key Type             Key Name            
+===============================================
+Primary Key          id                  
+Foreign Key          courseId reference book2(id)
+Foreign Key          bookId reference book3(id)
+
+Cardinality: one to many
+
+
+Table Name:  book6               
+===============================================
+Column Name          Column Type         
+===============================================
+id                   int                 
+title                text                
+courseId             int                 
+===============================================
+Key Type             Key Name            
+===============================================
+Primary Key          id                  
+Foreign Key          courseId references book2(id)
+
+Cardinality: one to one
+
+

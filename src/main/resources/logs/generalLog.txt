@@ -1,0 +1,2 @@
+Execution time: 17 ms, Query => create, Database Status: Database => books, Table Changed => book1, Total Records present => 0
+Execution time: 14 ms, Query => create, Database Status: Database => books, Table Changed => book3, Total Records present => 0

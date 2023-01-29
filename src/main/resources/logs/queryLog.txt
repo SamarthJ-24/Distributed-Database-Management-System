@@ -1,0 +1,6 @@
+naveed|books|book1|create|create table book1 (id int PRIMARY KEY, title text, courseId int REFERENCES course(id));|1649533168368
+naveed|books|book3|create|create table book3 (id int PRIMARY KEY, title text, courseId int REFERENCES course(id));|1649533379199
+naveed|books|bool|select|select * from bool;|1649533596395
+naveed|books|bool|select|select * from bool;|1649533729186
+naveed|books|bool|select|select * from bool;|1649534085944
+naveed|books|b|select|select * from b;|1649534174776
